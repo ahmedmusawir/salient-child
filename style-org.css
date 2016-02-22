@@ -1,0 +1,144 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+
+@import url("../salient/style.css");
+
+
+
+aside.pink {
+	color: rgb(199, 51, 141);
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+
+aside.orange {
+	color: rgb(232, 109, 12);
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+
+aside.teal {
+	color: rgb(68, 174, 179);
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+
+h4 {
+	color: rgb(232, 109, 12);
+}
+
+h3.title {
+	font-size: 18px !important; 
+}
+
+.divider-border {
+	border-bottom: 1px solid #000000
+}
+
+div.optinImg {
+	display: block;
+	float: left;
+	margin-top: -50px;
+}
+
+h2.page-conter {
+	font-family: Muli;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#optinButton {
+	font-family: "Muli";
+	letter-spacing:2px;
+	height:46px;
+	width:145px;
+	background-color: rgb(232, 103, 12);
+}
+
+#preorderButton {
+	font-family: "Muli";
+	letter-spacing:2px;
+	height:46px;
+	width:195px;
+	background-color: rgb(199, 51, 141);
+	display: block;
+	padding-top: 29px;
+}
+
+#optinCopy h2 {
+	font-family: "Kaushan Script";
+	font-size: 24px;
+	line-height: 32px;
+	color: rgb(199, 51, 141);
+	padding-bottom: 14px;
+	display: block;
+}
+
+#new-call-to-action h2 {
+	font-family: "Kaushan Script";
+	font-size: 24px;
+	line-height: 32px;
+	text-shadow: 1px 1px #fff;
+	color: rgb(199, 51, 141);
+	padding-bottom: 14px;
+}
+
+#new-call-to-action p {
+	font-family: Muli;
+	font-size: 15px;
+	line-height: 21px;
+	color: #505050;
+	padding-bottom: 12px;
+}
+
+.infusion-field {
+	display: block;
+	float: left;
+	padding-right: 20px;
+}
+
+.infusion-field-input-container {
+	background-color: #fff;
+}
+
+.infusion-submit {
+	display:block;
+	float:left;
+	padding-top:29px;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 690px) {
+
+#optinCopy h2 {
+	clear: both;
+}
+}
+
+
+#inf_field_FirstName, #inf_field_Email {
+        background-color: #fff !important;
+}
+
+#header-secondary-outer #social {
+	float: right;
+}

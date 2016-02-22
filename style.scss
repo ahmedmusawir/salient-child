@@ -1,0 +1,317 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+
+
+/**
+ *
+ * Colors
+ *
+ */
+$cheryl-purple: #950b60;
+$cheryl-purple-dark: #7c0552;
+$cheryl-teal: #179a9b;
+$cheryl-gray: #545455;
+
+@import "bourbon/bourbon";
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+// @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700italic,400italic,700);
+// @import url(https://fonts.googleapis.com/css?family=Bevan);
+// @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,300,200,100);
+// @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+// @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic);
+// Import custom Bootstrap variables
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css);
+
+@import "bootstrap-variables";
+
+@import url("../salient/style.css");
+
+body {
+	// font-family: 'Josefin Sans', sans-serif !important;
+	// font-family: 'Lato', sans-serif !important;
+	font-size: 1.2rem !important;
+}
+
+// THEME DEFAULT ID FOR THE MENU BAR
+#top {
+	border-bottom: .5rem solid lighten( purple, 5% );
+	margin-bottom: -.5rem;
+}
+
+.frontpg-top-youtube-block {
+	// border: 1rem solid yellow;
+	background-color: darken( $cheryl-gray, 20% );
+	max-height: 400px;
+	overflow: hidden;
+
+	// @media screen and ( min-width: 1100px ) {
+	// 	max-height: 500px;
+	// }
+
+	iframe {
+		// border: 1rem solid white;
+		margin-bottom: -2rem;
+		padding-top: 0px;
+		// margin-top: -.5rem;
+	}
+}
+
+.frontpg-header-infusion-block {
+	border-top: .5rem solid lighten( $cheryl-purple-dark, 5% );
+	background-color: lighten( $cheryl-teal, 0% );
+
+	.header-book-block {
+		// padding-bottom: 3rem;
+
+		img {
+			// border: 1px solid red;
+			width: 50% !important;
+			float: left;
+
+			@media screen and ( min-width: 641px ) {
+				width: 30% !important;
+				// border: 1px solid yellow;
+			}
+			@media screen and ( min-width: 1000px ) {
+				width: 55% !important;
+				// border: 1px solid yellow;
+				margin-top: -5rem;
+			}
+			@media screen and ( min-width: 1200px ) {
+				width: 35% !important;
+				// border: 1px solid yellow;
+				margin-top: -5rem;
+			}		
+		}
+		h4 {
+			color: white;
+			padding-top: 2rem;
+			text-transform: none !important;
+			font-style: italic !important;
+			font-family: 'Lato', sans-serif !important;
+			font-weight: 300;
+			
+			@media screen and ( min-width: 691px ) {
+				// border: 1px solid yellow;
+				font-size: 1.5rem !important;
+			}		
+		}
+	}
+	.header-infusion-form-container {
+
+		padding-top: 1rem;
+
+		#webform-video-series-opt-in {
+			background-color: lighten( $cheryl-teal, 0% );
+
+			.ascend .container-wrap input[type="submit"], .ascend .container-wrap button[type="submit"] {
+				padding: 0px !important;
+				border-radius: 0 !important;
+			}		
+
+			.privacy {
+				font-size: 1rem;
+			}
+
+			h2 {
+				font-family: 'Lato', sans-serif !important;
+				font-weight: 300;
+				font-size: 1.6rem;
+				color: white;
+				line-height: 2rem;
+			}
+			.infusion-field {
+
+				input {
+					border-radius: 0%;
+					color: white;
+					// height: .1rem;
+					&:focus, &:active {
+						border-color: white !important;
+					}
+				}
+
+				margin-bottom: 1rem;
+				::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+				    color:    $gray-light;
+				    // padding-top: -1rem;
+				}
+				:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+				   color:    $gray-light;
+				   // padding-top: -1rem;
+				   opacity:  1;
+				}
+				::-moz-placeholder { /* Mozilla Firefox 19+ */
+				   color:    $gray-light;
+				   // padding-top: -1rem;
+				   opacity:  1;
+				}
+				:-ms-input-placeholder { /* Internet Explorer 10-11 */
+				   color:    $gray-light;
+				   // padding-top: -1rem;
+				}
+				:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+				  color:    $gray-light;
+				  // padding-top: -1rem;
+				}
+			}
+			
+			#infusion-submit input[type=submit], button[type=submit] {
+			    background-color: darken( $gray-light, 20% );
+			    // border: 1px solid red;
+			    // padding: 1rem !important;
+			    // padding-left: 1rem !important;
+			    // padding-right: 1rem !important;
+				height: 2.8rem;
+				border-radius: 50px !important;
+				// padding-top: -10px !important;
+			}
+		
+		}
+	}	
+
+}
+
+.frontpg-meet-cheryl-block {
+
+	background-color: lighten( $smoke, 5% );
+	padding-top: 3rem;
+
+	p {
+		font-family: 'Lato', sans-serif !important;
+		font-weight: 700;
+		font-size: 1rem;
+		color: lighten( $gray-light, 10% );
+		padding-top: 1rem;
+
+	}
+
+}
+
+.frontpg-photo-block {
+
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+
+	h3 {
+		color: lighten( $gray-light, 25% );
+		padding-left: 3rem;
+	}
+	cite {
+		color: lighten( purple, 25% );
+	}
+
+	i {
+		color: lighten( $gray-light, 15% );
+	}
+}
+
+.frontpg-socials-block {
+	background-color: lighten( $steel, 25% );
+	margin-bottom: 4rem;
+	padding-top: 4rem;
+	padding-bottom: 3rem;
+	padding-left: .2rem;
+	padding-right: .2rem;
+
+	.social-box {
+		background-color: lighten( $smoke, 5% );
+		box-shadow: 3px 3px 8px lighten( $oil, 20% );
+		padding-top: 1.5rem;
+		padding-bottom: 1rem;
+
+		@include transition(all 1.0s ease-in-out);
+
+		&:hover {
+			background-color: lighten( $cheryl-purple, 45% );
+
+			h3 {
+				color: white;
+				// color: $gray-lighter;
+			}
+		}
+	}	
+}
+
+.frontpg-vc-recent-post-block {
+
+	border: 2px solid red;
+
+	.main-content {
+		background-color: white !important;
+	}
+}
+
+/**
+ *
+ * About Page Styles
+ *
+ */
+
+#page-header-wrap {
+
+	h1 {
+		font-size: 3rem !important;
+		line-height: 2rem;
+		// border: 3px solid yellow;
+	}
+}
+
+.aboutpg-first-block {
+	height: 580px;
+	background-color: $cheryl-gray;
+	position: relative;
+
+	img {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	.img-triangle-bg {
+
+		@media ( min-width: 1250px ) {
+			// border: 1px solid red;
+
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
