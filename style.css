@@ -299,7 +299,7 @@ body {
           font-size: 1.15rem; } }
 
 .workmepg-second-block {
-  background: url(http://cheryl.local/wp-content/uploads/2016/02/workwithme-block-2-1.jpg) no-repeat center center fixed;
+  background: url(http://cheryl.local/wp-content/uploads/2016/02/workwithme-block-2-4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -367,49 +367,65 @@ body {
         .workmepg-third-block .advice-content .about-text {
           font-size: 1.15rem; } }
 
+.workmepg-fourth-block {
+  background: url(http://cheryl.local/wp-content/uploads/2016/02/workwithme-speaker-block-1.jpg) no-repeat top center fixed; }
+  .workmepg-fourth-block .advice-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: -5rem;
+    margin-right: -5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 2.5rem; }
+    .workmepg-fourth-block .advice-content .btn {
+      border-radius: 0;
+      background-color: #950b60;
+      outline: none;
+      border: 1px solid #950b60; }
+      .workmepg-fourth-block .advice-content .btn:hover {
+        background-color: #ee189c; }
+    .workmepg-fourth-block .advice-content h1 {
+      color: #f577c5 !important;
+      padding-top: 4rem; }
+    .workmepg-fourth-block .advice-content .about-text {
+      color: #d5d5d5;
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      font-weight: 300 !important;
+      font-size: 1rem; }
+      @media (min-width: 1100px) {
+        .workmepg-fourth-block .advice-content .about-text {
+          font-size: 1.15rem; } }
+
 .workmepg-fifth-block {
-  height: 520px;
-  background-color: #545455;
+  background-color: #7c0552;
   position: relative; }
   .workmepg-fifth-block img {
     position: absolute;
     top: 0;
-    right: 0; }
-  .workmepg-fifth-block .about-content h1 {
-    color: #f577c5 !important;
-    padding-top: 4rem; }
-  .workmepg-fifth-block .about-content .about-text {
-    color: #EEEEEE;
-    padding-top: 2rem;
-    font-weight: 300 !important;
-    font-size: 1rem; }
-    @media (min-width: 1100px) {
-      .workmepg-fifth-block .about-content .about-text {
-        font-size: 1.15rem; } }
-
-.workmepg-fourth-block {
-  background-color: #EEEEEE;
-  background-image: url(http://cheryl.local/wp-content/uploads/2016/02/about-strategy-bg-block-1.jpg); }
-  .workmepg-fourth-block .strategy-content .btn {
+    left: 0;
+    z-index: 0; }
+  .workmepg-fifth-block .brilliance-content .btn {
     border-radius: 0;
     background-color: #950b60;
     outline: none;
     border: 1px solid black; }
-    .workmepg-fourth-block .strategy-content .btn:hover {
+    .workmepg-fifth-block .brilliance-content .btn:hover {
       background-color: #ee189c; }
-  .workmepg-fourth-block .strategy-content h1 {
+  .workmepg-fifth-block .brilliance-content h1 {
     color: #f577c5 !important;
     padding-top: 4rem; }
-  .workmepg-fourth-block .strategy-content .about-text {
+  .workmepg-fifth-block .brilliance-content .about-text {
     color: #a2a2a2;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-weight: 300 !important;
     font-size: 1rem; }
     @media (min-width: 1100px) {
-      .workmepg-fourth-block .strategy-content .about-text {
+      .workmepg-fifth-block .brilliance-content .about-text {
         font-size: 1.15rem; } }
-  .workmepg-fourth-block .strategy-content .about-list {
+  .workmepg-fifth-block .brilliance-content .about-list {
     color: #ee189c;
     padding-left: 2rem;
     padding-top: 2rem;
@@ -418,7 +434,73 @@ body {
     font-weight: 300 !important;
     font-size: 1rem; }
     @media (min-width: 1100px) {
-      .workmepg-fourth-block .strategy-content .about-list {
+      .workmepg-fifth-block .brilliance-content .about-list {
+        font-size: 1.15rem; } }
+
+.workmepg-sixth-block {
+  background-color: #7c0552;
+  position: relative;
+  padding-top: 5rem;
+  z-index: -1; }
+  @media (min-width: 691px) and (max-width: 767px) {
+    .workmepg-sixth-block {
+      padding-top: 8rem; } }
+  @media (min-width: 1000px) {
+    .workmepg-sixth-block {
+      padding-top: 10rem; } }
+  .workmepg-sixth-block img.right-img {
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+  .workmepg-sixth-block .strategy-content .btn {
+    border-radius: 0;
+    background-color: #950b60;
+    outline: none;
+    border: 1px solid black; }
+    .workmepg-sixth-block .strategy-content .btn:hover {
+      background-color: #ee189c; }
+  .workmepg-sixth-block .strategy-content h1 {
+    color: #f577c5 !important;
+    padding-top: 4rem; }
+  .workmepg-sixth-block .strategy-content .about-text {
+    color: #a2a2a2;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 300 !important;
+    font-size: 1rem; }
+    @media (min-width: 1100px) {
+      .workmepg-sixth-block .strategy-content .about-text {
+        font-size: 1.15rem; } }
+  .workmepg-sixth-block .strategy-content .about-list {
+    color: #ee189c;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    list-style: square !important;
+    font-weight: 300 !important;
+    font-size: 1rem; }
+    @media (min-width: 1100px) {
+      .workmepg-sixth-block .strategy-content .about-list {
+        font-size: 1.15rem; } }
+
+.workmepg-unknown-block {
+  height: 520px;
+  background-color: #545455;
+  position: relative; }
+  .workmepg-unknown-block img {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .workmepg-unknown-block .about-content h1 {
+    color: #f577c5 !important;
+    padding-top: 4rem; }
+  .workmepg-unknown-block .about-content .about-text {
+    color: #EEEEEE;
+    padding-top: 2rem;
+    font-weight: 300 !important;
+    font-size: 1rem; }
+    @media (min-width: 1100px) {
+      .workmepg-unknown-block .about-content .about-text {
         font-size: 1.15rem; } }
 
 /*# sourceMappingURL=style.css.map */

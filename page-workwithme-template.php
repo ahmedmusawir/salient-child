@@ -92,7 +92,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 ">			
 				<article class="advice-content">
 
-					<h1>A Piece of Advice</h1>
+					<h1>3. Get Into The Program</h1>
 
 					<p class="about-text">
 			
@@ -110,70 +110,47 @@
 
 	</section>
 
-
-
-
-
 	<section class="workmepg-fourth-block">
 	
-		<div class="container-fluid">
-			<div class="col-xs-12 col-sm-6 col-md-6 ">		
+		<div class="container">
+			<div class="col-xs-12 col-sm-12 col-md-12 ">			
+				<article class="advice-content">
 
-				<article class="strategy-content">
-
-					<h1>The Strategy</h1>
+					<h1>4. Book me as a speaker</h1>
 
 					<p class="about-text">
 			
-						Empowering women for greater success in work, business, family and personal effectiveness…. in areas that matters.
-						The only way women can thrive amidst these changes is by tuning into their authentic selves. The 24-Hour Woman inspires women to embrace a vision of excellent living wherein they win both in career and life arenas.Our programs include a variety of live and virtual events, products, mentoring, and community-building activities amongst like-minded individuals who also desire vibrant and fulfilling lives.Our approach and programs are built for you to THRIVE as women in business and life. We offer:
+						I have been speaking publicly across the global. I have keynoted hundreds of events for corporations, conferences, trade associations and women’s platforms. However, I have recently cut back on the number of invitations I accept, in order to make room for other priorities. If you have an event you would like me to consider, please visit my speaking page then email Sharon,  my assistant.				
 
 					</p>
-
-					<ul class="about-list">
-						<li>Time-tested success principles to increase personal effectiveness</li>
-						<li>a Hands on approach</li>
-						<li>guidance in finding your Reasons to achieve</li>
-						<li>Inspiration for a vibrant and joyous life</li>
-						<li>coaching to create your life Vision</li>
-						<li>help in Evolving your plans towards your destination</li>
-					</ul>
-
-
-					<p class="about-text">
-						Now is the time for you to StepUp and lead. The opportunities are unprecedented so THRIVE.
-						Claim your success.Join the The24HourWoman community through our programs and events—including leadership training for women. I look forward to working with you. It is my desire to see you influence and impact your world.
+					<p>
+						<a class="btn btn-primary" href="http://cheryl.local/contact/" title="">Contact</a>
 					</p>
 					
 				</article>
 
 			</div> <!-- END COLS SIZES -->
-			<div class="col-xs-12 col-sm-6 col-md-6 ">		
-				
-				<article class="strategy-content">
+		</div> <!-- END CONTAINER -->
 
-					<h1>The Strategy</h1>
+	</section>
+
+
+	
+	<section class="workmepg-fifth-block">
+		<img class="" data-delay="1" data-animation="fade-in-from-right"   src="http://cheryl.local/wp-content/uploads/2016/02/workwithme-block-4.png" alt="">
+	
+		<div class="container">
+			
+			<div class="col-xs-12 col-sm-8 col-sm-offset-4 col-md-8 col-md-offset-4">		
+				
+				<article class="brilliance-content">
+
+					<h1>4. Join my Brilliance Breakthrough™</h1>
 
 					<p class="about-text">
 			
-						Empowering women for greater success in work, business, family and personal effectiveness…. in areas that matters.
-						The only way women can thrive amidst these changes is by tuning into their authentic selves. The 24-Hour Woman inspires women to embrace a vision of excellent living wherein they win both in career and life arenas.Our programs include a variety of live and virtual events, products, mentoring, and community-building activities amongst like-minded individuals who also desire vibrant and fulfilling lives.Our approach and programs are built for you to THRIVE as women in business and life. We offer:
+						I lead a paid women’s only high performance coaching group for a handful of qualified, high-achievers of women professionals and entreprenuers. It involves a face-to-face meeting in person, fortnight group video conferences, and individual email coaching. The group is full for 2015, but we will open the 2016 application process again soon. If you would like to be notified in advance, please email Sharon , my assistant.
 
-					</p>
-
-					<ul class="about-list">
-						<li>Time-tested success principles to increase personal effectiveness</li>
-						<li>a Hands on approach</li>
-						<li>guidance in finding your Reasons to achieve</li>
-						<li>Inspiration for a vibrant and joyous life</li>
-						<li>coaching to create your life Vision</li>
-						<li>help in Evolving your plans towards your destination</li>
-					</ul>
-
-
-					<p class="about-text">
-						Now is the time for you to StepUp and lead. The opportunities are unprecedented so THRIVE.
-						Claim your success.Join the The24HourWoman community through our programs and events—including leadership training for women. I look forward to working with you. It is my desire to see you influence and impact your world.
 					</p>
 					
 				</article>
@@ -183,14 +160,37 @@
 
 	</section>
 
+	<section class="workmepg-sixth-block">
+		<img class="right-img" data-delay="1" data-animation="fade-in-from-right"   src="http://cheryl.local/wp-content/uploads/2016/02/workwithme-block-4b.png" alt="">
+	
+		<div class="container">
+			
+			<div class="col-xs-12 col-sm-10 col-md-10">		
+				
+				<article class="strategy-content">
 
-	<section class="workmepg-fifth-block">
+					<h1>5. Join my small group masterminds</h1>
 
-		<img class="pull-left hidden-xs img-with-animation" data-delay="1" data-animation="fade-in-from-right"   src="http://cheryl.local/wp-content/uploads/2016/02/cheryl-triangle-jpeg-perfect.jpg" alt="">
-		<img class="visible-xs" src="http://cheryl.local/wp-content/uploads/2016/02/cheryl-triangle-jpg-color-overlay-perfect.jpg" alt="">
+					<p class="about-text">
+			
+						I host several masterminds annually in my favourite cities for a handful of qualified, high-achievers from around the world who wants to meet face to face, build growth relationships and be coached on monthly group video conferences, and individual email coaching. The group is full for 2015, but we will open the 2016 application process again shortly. If you would like to be notified in advance, please email Sharon, my assistant.
+
+					</p>
+					
+				</article>
+
+			</div> <!-- END COLS SIZES -->			
+		</div> <!-- END CONTAINER -->
+
+	</section>
+
+	<!-- <section class="workmepg-fifth-block"> -->
+
+		<!-- <img class="pull-left hidden-xs img-with-animation" data-delay="1" data-animation="fade-in-from-right"   src="http://cheryl.local/wp-content/uploads/2016/02/cheryl-triangle-jpeg-perfect.jpg" alt=""> -->
+		<!-- <img class="visible-xs" src="http://cheryl.local/wp-content/uploads/2016/02/cheryl-triangle-jpg-color-overlay-perfect.jpg" alt=""> -->
 		<!-- <img class="img-responsive pull-left" src="http://cheryl.local/wp-content/uploads/2016/02/cheryl-triangle-jpg.jpg" alt=""> -->
 			
-		<div class="container">
+		<!-- <div class="container">
 			<div class="col-xs-12 col-sm-10 col-md-8 ">			
 				<article class="about-content">
 
@@ -201,13 +201,13 @@
 
 					</p>
 					
-				</article>
+				</article> -->
 
-			</div> <!-- END COLS SIZES -->
-		</div> <!-- END CONTAINER -->
+			<!-- </div> --> <!-- END COLS SIZES -->
+		<!-- </div> --> <!-- END CONTAINER -->
 
 
-	</section>
+	<!-- </section> -->
 	
 
 <!-- 	
