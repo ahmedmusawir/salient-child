@@ -36,7 +36,7 @@ $jet         : #222222;
 $black       : #000000;
 
 // $brand-primary:         darken(#428bca, 6.5%); // #337ab7;
-// $brand-primary:  darken( #FFFC13, 30% );
+$brand-primary:  #950b60;
 
 // $brand-success:         #5cb85c;
 $brand-success:         $steel;
@@ -174,7 +174,7 @@ $border-radius-small:       3px;
 // $btn-default-border:             #ccc
 
 // $btn-primary-color:              #fff
-// $btn-primary-bg:                 $brand-primary
+$btn-primary-bg:                 $brand-primary;
 // $btn-primary-border:             darken($btn-primary-bg, 5%)
 
 // $btn-success-color:              #fff

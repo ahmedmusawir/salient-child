@@ -243,7 +243,7 @@ body {
 
 .frontpg-vc-recent-post-block {
 
-	border: 2px solid red;
+	// border: 2px solid red;
 
 	.main-content {
 		background-color: white !important;
@@ -266,7 +266,7 @@ body {
 }
 
 .aboutpg-first-block {
-	height: 580px;
+	height: 520px;
 	background-color: $cheryl-gray;
 	position: relative;
 
@@ -276,11 +276,324 @@ body {
 		right: 0;
 	}
 
-	.img-triangle-bg {
+	.about-content {
 
-		@media ( min-width: 1250px ) {
+		h1 {
+			color: lighten( $cheryl-purple, 40% ) !important;
+			padding-top: 4rem;
+		}
+		.about-text {
+			color: $smoke;
+			padding-top: 2rem;
+			font-weight: 300 !important;
+			font-size: 1rem;
+			@media ( min-width: 1100px ) {
+				font-size: 1.15rem;
+			}
+		}
+	}
+
+}
+
+.aboutpg-second-block {
+
+	.impact-content {
+
+		.btn {
+			border-radius: 0;
+			background-color: $cheryl-purple;
+			outline: none;
+			border: 1px solid black;
+
+			&:hover {
+				background-color: lighten( $cheryl-purple, 20% );
+			}
+		}
+
+		h1 {
+			color: lighten( $cheryl-purple, 40% ) !important;
+			padding-top: 4rem;
+		}
+		.about-text {
+			color: darken( $smoke, 30% );
+			padding-top: 2rem;
+			padding-bottom: 4rem;
 			// border: 1px solid red;
 
+			font-weight: 300 !important;
+			font-size: 1rem;
+			@media ( min-width: 1100px ) {
+				font-size: 1.15rem;
+			}
+		}
+	}
+}
+
+.aboutpg-third-block {
+	// background-image: url(http://cheryl.local/wp-content/uploads/2016/02/block-2.jpg);
+	// background-repeat: no-repeat;
+	 background: url(http://cheryl.local/wp-content/uploads/2016/02/about24hr-woman-bg.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;	
+
+	.hrwoman-content {
+
+		// border: 1rem solid hotpink;
+		background-color: rgba( black, .5 );
+		padding-left: 4rem;
+		padding-right: 4rem;
+
+		@media ( max-width: 500px ) {
+
+			padding-left: 2rem;
+			padding-right: 1rem;
+			margin-left: -3rem;
+			margin-right: -3rem;
+
+		}
+
+		.btn {
+			border-radius: 0;
+			background-color: $cheryl-purple;
+			outline: none;
+			border: 1px solid black;
+
+			&:hover {
+				background-color: lighten( $cheryl-purple, 20% );
+			}
+		}
+
+		h1 {
+			color: lighten( $cheryl-purple, 50% ) !important;
+			padding-top: 4rem;
+		}
+		.about-text {
+			color: darken( $smoke, 10% );
+			padding-top: 2rem;
+			padding-bottom: 4rem;
+			// border: 1px solid red;
+
+			font-weight: 300 !important;
+			font-size: 1rem;
+			@media ( min-width: 1100px ) {
+				font-size: 1.15rem;
+			}
+		}
+	}
+}
+
+.aboutpg-fourth-block {
+		background-color: $smoke;
+		background-image: url(http://cheryl.local/wp-content/uploads/2016/02/about-strategy-bg-block-1.jpg);
+		.strategy-content {
+
+			// border: 2px solid red;
+
+			.btn {
+				border-radius: 0;
+				background-color: $cheryl-purple;
+				outline: none;
+				border: 1px solid black;
+
+				&:hover {
+					background-color: lighten( $cheryl-purple, 20% );
+				}
+			}
+
+			h1 {
+				color: lighten( $cheryl-purple, 40% ) !important;
+				padding-top: 4rem;
+			}
+			.about-text {
+				color: darken( $smoke, 30% );
+				padding-top: 2rem;
+				padding-bottom: 2rem;
+				// border: 1px solid red;
+
+				font-weight: 300 !important;
+				font-size: 1rem;
+				@media ( min-width: 1100px ) {
+					font-size: 1.15rem;
+				}
+			}
+			.about-list {
+				color: lighten( $cheryl-purple, 20% );
+				padding-left: 2rem;
+				padding-top: 2rem;
+				padding-bottom: 2rem;
+				// border: 1px solid red;
+				list-style: square !important;
+
+				font-weight: 300 !important;
+				font-size: 1rem;
+				@media ( min-width: 1100px ) {
+					font-size: 1.15rem;
+				}
+
+			}
+		}
+}
+
+
+
+/**
+ *
+ * Work With Me Page Styles
+ *
+ */
+
+#page-header-wrap {
+
+	h1 {
+		font-size: 3rem !important;
+		line-height: 2rem;
+		// border: 3px solid yellow;
+	}
+}
+
+.workmepg-first-block {
+
+	background-color: $cheryl-purple;
+
+	.advice-content {
+		text-align: center;
+
+		.btn {
+			border-radius: 0;
+			background-color: $cheryl-purple;
+			outline: none;
+			border: 1px solid black;
+
+			&:hover {
+				background-color: lighten( $cheryl-purple, 20% );
+			}
+		}
+
+		h1 {
+			color: lighten( $cheryl-purple, 40% ) !important;
+			padding-top: 4rem;
+		}
+		.about-text {
+			color: darken( $smoke, 30% );
+			padding-top: 2rem;
+			padding-bottom: 4rem;
+			// border: 1px solid red;
+
+			font-weight: 300 !important;
+			font-size: 1rem;
+			@media ( min-width: 1100px ) {
+				font-size: 1.15rem;
+			}
+		}
+	}
+}
+
+.workmepg-second-block {
+	// background-image: url(http://cheryl.local/wp-content/uploads/2016/02/block-2.jpg);
+	// background-repeat: no-repeat;
+	 background: url(http://cheryl.local/wp-content/uploads/2016/02/workwithme-block-2-1.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;	
+
+	.hrwoman-content {
+
+		// border: 1rem solid hotpink;
+		background-color: rgba( black, .5 );
+		padding-left: 4rem;
+		padding-right: 4rem;
+
+		@media ( max-width: 500px ) {
+
+			padding-left: 2rem;
+			padding-right: 1rem;
+			margin-left: -3rem;
+			margin-right: -3rem;
+
+		}
+
+		.search-form-container {
+
+			text-align: center;
+			padding-bottom: 3rem;
+
+			.search-submit {
+				// border: 1rem solid hotpink;
+				background-color: $cheryl-purple;
+				outline: none;
+				border: 1px solid $cheryl-purple-dark;
+				&:hover {
+					background-color: lighten( $cheryl-purple, 20% ) !important;
+				}				
+			}
+		}
+
+		.btn {
+			border-radius: 0;
+			background-color: $cheryl-purple;
+			outline: none;
+			border: 1px solid $cheryl-purple-dark;
+
+			&:hover {
+				background-color: lighten( $cheryl-purple, 20% );
+			}
+		}
+
+		h1 {
+			color: lighten( $cheryl-purple, 50% ) !important;
+			padding-top: 4rem;
+		}
+		.about-text {
+			color: darken( $smoke, 10% );
+			padding-top: 2rem;
+			padding-bottom: 4rem;
+			// border: 1px solid red;
+
+			font-weight: 300 !important;
+			font-size: 1rem;
+			@media ( min-width: 1100px ) {
+				font-size: 1.15rem;
+			}
+		}
+	}
+}
+
+.workmepg-third-block {
+
+	background-color: darken( $cheryl-teal, 10% );
+
+	.advice-content {
+		text-align: center;
+
+		.btn {
+			border-radius: 0;
+			background-color: $cheryl-purple;
+			outline: none;
+			border: 1px solid $cheryl-purple;
+
+			&:hover {
+				background-color: lighten( $cheryl-purple, 20% );
+			}
+		}
+
+		h1 {
+			color: lighten( $cheryl-purple, 40% ) !important;
+			padding-top: 4rem;
+		}
+		.about-text {
+			color: darken( $smoke, 10% );
+			padding-top: 2rem;
+			padding-bottom: 4rem;
+			// border: 1px solid red;
+
+			font-weight: 300 !important;
+			font-size: 1rem;
+			@media ( min-width: 1100px ) {
+				font-size: 1.15rem;
+			}
 		}
 	}
 }
@@ -290,6 +603,93 @@ body {
 
 
 
+
+
+.workmepg-fifth-block {
+	height: 520px;
+	background-color: $cheryl-gray;
+	position: relative;
+
+	img {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	.about-content {
+
+		h1 {
+			color: lighten( $cheryl-purple, 40% ) !important;
+			padding-top: 4rem;
+		}
+		.about-text {
+			color: $smoke;
+			padding-top: 2rem;
+			font-weight: 300 !important;
+			font-size: 1rem;
+			@media ( min-width: 1100px ) {
+				font-size: 1.15rem;
+			}
+		}
+	}
+
+}
+
+
+
+
+
+.workmepg-fourth-block {
+		background-color: $smoke;
+		background-image: url(http://cheryl.local/wp-content/uploads/2016/02/about-strategy-bg-block-1.jpg);
+		.strategy-content {
+
+			// border: 2px solid red;
+
+			.btn {
+				border-radius: 0;
+				background-color: $cheryl-purple;
+				outline: none;
+				border: 1px solid black;
+
+				&:hover {
+					background-color: lighten( $cheryl-purple, 20% );
+				}
+			}
+
+			h1 {
+				color: lighten( $cheryl-purple, 40% ) !important;
+				padding-top: 4rem;
+			}
+			.about-text {
+				color: darken( $smoke, 30% );
+				padding-top: 2rem;
+				padding-bottom: 2rem;
+				// border: 1px solid red;
+
+				font-weight: 300 !important;
+				font-size: 1rem;
+				@media ( min-width: 1100px ) {
+					font-size: 1.15rem;
+				}
+			}
+			.about-list {
+				color: lighten( $cheryl-purple, 20% );
+				padding-left: 2rem;
+				padding-top: 2rem;
+				padding-bottom: 2rem;
+				// border: 1px solid red;
+				list-style: square !important;
+
+				font-weight: 300 !important;
+				font-size: 1rem;
+				@media ( min-width: 1100px ) {
+					font-size: 1.15rem;
+				}
+
+			}
+		}
+}
 
 
 
