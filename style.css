@@ -483,24 +483,64 @@ body {
       .workmepg-sixth-block .strategy-content .about-list {
         font-size: 1.15rem; } }
 
-.workmepg-unknown-block {
-  height: 520px;
-  background-color: #545455;
-  position: relative; }
-  .workmepg-unknown-block img {
-    position: absolute;
-    top: 0;
-    right: 0; }
-  .workmepg-unknown-block .about-content h1 {
-    color: #f577c5 !important;
-    padding-top: 4rem; }
-  .workmepg-unknown-block .about-content .about-text {
-    color: #EEEEEE;
-    padding-top: 2rem;
-    font-weight: 300 !important;
-    font-size: 1rem; }
-    @media (min-width: 1100px) {
-      .workmepg-unknown-block .about-content .about-text {
-        font-size: 1.15rem; } }
+.workmepg-seventh-block {
+  background: url(http://cheryl.local/wp-content/uploads/2016/02/workwithme-personal-coach-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .workmepg-seventh-block .advice-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: -5rem;
+    margin-right: -5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 2.5rem; }
+    .workmepg-seventh-block .advice-content .btn {
+      border-radius: 0;
+      background-color: #950b60;
+      outline: none;
+      border: 1px solid #950b60; }
+      .workmepg-seventh-block .advice-content .btn:hover {
+        background-color: #ee189c; }
+    .workmepg-seventh-block .advice-content h1 {
+      color: #f577c5 !important;
+      padding-top: 4rem; }
+    .workmepg-seventh-block .advice-content .about-text {
+      color: #d5d5d5;
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      font-weight: 300 !important;
+      font-size: 1rem; }
+      @media (min-width: 1100px) {
+        .workmepg-seventh-block .advice-content .about-text {
+          font-size: 1.15rem; } }
+
+.workmepg-first-block {
+  background-color: #950b60;
+  background-image: url(http://cheryl.local/wp-content/uploads/2016/02/about-strategy-bg-block-1.jpg); }
+  .workmepg-first-block .advice-content {
+    text-align: center; }
+    .workmepg-first-block .advice-content .btn {
+      border-radius: 0;
+      background-color: #950b60;
+      outline: none;
+      border: 1px solid black; }
+      .workmepg-first-block .advice-content .btn:hover {
+        background-color: #ee189c; }
+    .workmepg-first-block .advice-content h1 {
+      color: #f577c5 !important;
+      padding-top: 4rem; }
+    .workmepg-first-block .advice-content .about-text {
+      color: #a2a2a2;
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+      font-weight: 300 !important;
+      font-size: 1rem; }
+      @media (min-width: 1100px) {
+        .workmepg-first-block .advice-content .about-text {
+          font-size: 1.15rem; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -184,6 +184,50 @@
 
 	</section>
 
+	<section class="workmepg-seventh-block">
+	
+		<div class="container">
+			<div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 ">			
+				<article class="advice-content">
+
+					<h1>7. Hire me as a personal coach</h1>
+
+					<p class="about-text">
+					
+						I love one-on-one coaching, but I have limited time available for it. Therefore, I am very selective. I also charge crazy-high fees. But if you think you could benefit from one-on-one interaction with me, email Sharon,  my assistant.			
+
+					</p>
+					<p>
+						<a class="btn btn-primary" href="http://cheryl.local/contact/" title="">Contact</a>
+					</p>
+					
+				</article>
+
+			</div> <!-- END COLS SIZES -->
+		</div> <!-- END CONTAINER -->
+
+	</section>
+
+	<section class="workmepg-first-block">
+	
+		<div class="container">
+			<div class="col-xs-12 col-sm-12 col-md-12 ">			
+				<article class="advice-content">
+
+					<h1>Further Assistance</h1>
+
+					<p class="about-text">
+			
+						If you have something else in mind, other than what I have outlined, feel free to e-mail me. Someone on my team would be happy to talk with you.
+					
+					</p>
+					
+				</article>
+
+			</div> <!-- END COLS SIZES -->
+		</div> <!-- END CONTAINER -->
+
+	</section>	
 	<!-- <section class="workmepg-fifth-block"> -->
 
 		<!-- <img class="pull-left hidden-xs img-with-animation" data-delay="1" data-animation="fade-in-from-right"   src="http://cheryl.local/wp-content/uploads/2016/02/cheryl-triangle-jpeg-perfect.jpg" alt=""> -->
