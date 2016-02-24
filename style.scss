@@ -42,10 +42,23 @@ body {
 
 // THEME DEFAULT ID FOR THE MENU BAR
 #top {
-	border-bottom: .5rem solid lighten( purple, 5% );
+	border-bottom: .5rem solid lighten( $cheryl-purple-dark, 5% );
+	// border-bottom: .5rem solid lighten( purple, 5% );
 	margin-bottom: -.5rem;
 }
 
+#social {
+	float: right !important;
+	// border: 1px solid red;
+}
+
+#page-header-bg {
+
+	border-bottom: .5rem solid lighten( $cheryl-purple-dark, 5% );
+	// border-bottom: .5rem solid lighten( purple, 5% );
+
+}
+ 
 .frontpg-top-youtube-block {
 	// border: 1rem solid yellow;
 	background-color: darken( $cheryl-gray, 20% );
@@ -183,6 +196,7 @@ body {
 .frontpg-meet-cheryl-block {
 
 	background-color: lighten( $smoke, 5% );
+	background-image: url(http://cheryl.local/wp-content/uploads/2016/02/about-strategy-bg-block-1.jpg);
 	padding-top: 3rem;
 
 	p {
@@ -239,6 +253,33 @@ body {
 			}
 		}
 	}	
+}
+
+.frontpg-book-block {
+	@include background(linear-gradient( darken( $cheryl-gray, 20% ), lighten( $cheryl-teal, 10% ) ) left repeat);
+	padding-bottom: 8rem;
+
+	h2 {
+		color: lighten( $cheryl-purple, 15% );
+		padding-top: 3rem;
+	}
+	i {
+		color: lighten( $cheryl-purple, 15% );
+		font-size: 2rem;
+	}
+	p {
+		color: darken( $smoke, 10% );
+		padding-top: 4rem;
+	}
+
+	form {
+		label {
+			color: $smoke;
+		}
+		.infusion-submit {
+			margin-top: 1rem;
+		}
+	}
 }
 
 .frontpg-vc-recent-post-block {
@@ -824,7 +865,7 @@ body {
 	}
 }
 
-.workmepg-first-block {
+.workmepg-eighth-block {
 
 	background-color: $cheryl-purple;
 	background-image: url(http://cheryl.local/wp-content/uploads/2016/02/about-strategy-bg-block-1.jpg);

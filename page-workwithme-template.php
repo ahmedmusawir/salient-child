@@ -92,7 +92,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 ">			
 				<article class="advice-content">
 
-					<h1>3. Get Into The Program</h1>
+					<h1>3. Get With The Program</h1>
 
 					<p class="about-text">
 			
@@ -145,7 +145,7 @@
 				
 				<article class="brilliance-content">
 
-					<h1>4. Join my Brilliance Breakthrough™</h1>
+					<h1>5. Join my Brilliance Breakthrough™</h1>
 
 					<p class="about-text">
 			
@@ -169,7 +169,7 @@
 				
 				<article class="strategy-content">
 
-					<h1>5. Join my small group masterminds</h1>
+					<h1>6. Join my small group masterminds</h1>
 
 					<p class="about-text">
 			
@@ -208,7 +208,7 @@
 
 	</section>
 
-	<section class="workmepg-first-block">
+	<section class="workmepg-eighth-block">
 	
 		<div class="container">
 			<div class="col-xs-12 col-sm-12 col-md-12 ">			

@@ -3,13 +3,14 @@
 <?php //nectar_page_header($post->ID); ?>
 
 <div class="wrap">
-
+<!-- https://youtu.be/4XbHDR4kdBo -->
 	<section class="frontpg-top-youtube-block">	
 		<div class="container main-content">
 			
 			<div class="row">
 				
-			<iframe src="//www.youtube.com/embed/9VsCWrn9p7Q?rel=0&amp;controls=0&amp;showinfo=0" width="840" height="360" frameborder="0">
+			<iframe src="//www.youtube.com/embed/4XbHDR4kdBo?rel=0&amp;controls=0&amp;showinfo=0" width="840" height="360" frameborder="0">
+			<!-- <iframe src="//www.youtube.com/embed/9VsCWrn9p7Q?rel=0&amp;controls=0&amp;showinfo=0" width="840" height="360" frameborder="0"> -->
 				
 			</iframe>
 		
@@ -151,6 +152,58 @@
 		</div>
 
 	</section>
+
+	<section class="frontpg-book-block">
+		
+		<article class="book-container container">
+			<div class="row">
+
+				<aside class="book-photo col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<img class="img-responsive  img-with-animation" data-delay="1" data-animation="fade-in-from-left"  src="http://cheryl.local/wp-content/uploads/2013/06/the24hourbook.png" alt="">
+				</aside>
+				<aside class="book-text col-xs-12 col-sm-8 col-md-8 col-lg-8">
+
+						<div id="new-call-to-action">
+
+							<span><i class="fa fa-quote-left"></i></span>
+							<h2>The 24-Hour Woman: How High Achieving and Stressed Women Manage It All and Still Find Happiness</h2>
+							<span><i class="fa fa-quote-right pull-right"></i></span>
+							<p>
+								Want to live a less overwhelmed and toiling life to one that is thriving and filled with vibrancy?
+								If so, the book The 24-Hour Woman will help you do just that. Having climbed the corporate ladder and served in leadership positions, navigated several career transitions in many industries, while also attending graduate school and raising three boys, Cheryl experienced challenges and eventually uncovered the secrets to a life of abundance and vibrancy.
+								And now this book documents the exact steps she and thousands of others took to become the great success they are today - successfully thriving in work/business and live a vibrant life.
+								This book will be available in January of 2015, but if you click the button below, we will put you on the EARLY BIRD list so you can get notified the second it comes out!
+							</p>	
+
+						</div>
+
+						<form accept-charset="UTF-8" action="https://lw957.infusionsoft.com/app/form/process/5898d212fd55d7b680585a5db53f811c" class="infusion-form" method="POST">
+						    <input name="inf_form_xid" type="hidden" value="5898d212fd55d7b680585a5db53f811c" />
+						    <input name="inf_form_name" type="hidden" value="Hard Cover Book Pre-Order" />
+						    <input name="infusionsoft_version" type="hidden" value="1.34.0.44" />
+						    <div class="infusion-field">
+						        <label for="inf_field_FirstName">First Name *</label>
+						        <input style="background-color:#ffffff" class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="text" />
+						    </div>
+						    <div class="infusion-field">
+						        <label for="inf_field_Email">Email *</label>
+						        <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="text" />
+						    </div>
+
+						    <div class="infusion-submit">
+						        <input class="pull-right" id="preorderButton" type="submit" value="PUT ME ON THE LIST" />
+						    </div>
+						</form>
+						<script type="text/javascript" src="https://lw957.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=6ddd4aba466ce23b96aadedd894d89a1"></script>
+
+
+
+				</aside>
+				
+			</div>
+		</article>
+
+	</section>	
 
 	<section class="frontpg-vc-recent-post-block">
 		
