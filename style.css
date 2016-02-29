@@ -40,7 +40,7 @@ body {
 
 .frontpg-header-infusion-block {
   border-top: 0.5rem solid #950662;
-  background-color: #179a9b; }
+  background-color: #28a0a0; }
   .frontpg-header-infusion-block .header-book-block img {
     width: 50% !important;
     float: left; }
@@ -60,7 +60,6 @@ body {
     padding-top: 2rem;
     text-transform: none !important;
     font-style: italic !important;
-    font-family: 'Lato', sans-serif !important;
     font-weight: 300; }
     @media screen and (min-width: 691px) {
       .frontpg-header-infusion-block .header-book-block h4 {
@@ -68,14 +67,13 @@ body {
   .frontpg-header-infusion-block .header-infusion-form-container {
     padding-top: 1rem; }
     .frontpg-header-infusion-block .header-infusion-form-container #webform-video-series-opt-in {
-      background-color: #179a9b; }
+      background-color: #28a0a0; }
       .frontpg-header-infusion-block .header-infusion-form-container #webform-video-series-opt-in .ascend .container-wrap input[type="submit"], .frontpg-header-infusion-block .header-infusion-form-container #webform-video-series-opt-in .ascend .container-wrap button[type="submit"] {
         padding: 0px !important;
         border-radius: 0 !important; }
       .frontpg-header-infusion-block .header-infusion-form-container #webform-video-series-opt-in .privacy {
         font-size: 1rem; }
       .frontpg-header-infusion-block .header-infusion-form-container #webform-video-series-opt-in h2 {
-        font-family: 'Lato', sans-serif !important;
         font-weight: 300;
         font-size: 1.6rem;
         color: white;
@@ -111,10 +109,8 @@ body {
 
 .frontpg-meet-cheryl-block {
   background-color: #fbfbfb;
-  background-image: url(http://cheryl.local/wp-content/uploads/2016/02/about-strategy-bg-block-1.jpg);
   padding-top: 3rem; }
   .frontpg-meet-cheryl-block p {
-    font-family: 'Lato', sans-serif !important;
     font-weight: 700;
     font-size: 1rem;
     color: #919191;
@@ -127,9 +123,11 @@ body {
     color: #b7b7b7;
     padding-left: 3rem; }
   .frontpg-photo-block cite {
-    color: #ff01ff; }
+    color: #6ddbdb; }
   .frontpg-photo-block i {
     color: #9d9d9d; }
+  .frontpg-photo-block .photo-text {
+    padding-top: 7rem; }
 
 .frontpg-socials-block {
   background-color: #a6a6a6;
@@ -152,14 +150,14 @@ body {
         color: white; }
 
 .frontpg-book-block {
-  background: -webkit-linear-gradient(#212122, #1ec6c7) left repeat;
-  background: linear-gradient(#212122, #1ec6c7) left repeat;
+  background: -webkit-linear-gradient(#212122, #32c9c9) left repeat;
+  background: linear-gradient(#212122, #32c9c9) left repeat;
   padding-bottom: 8rem; }
   .frontpg-book-block h2 {
-    color: #dc108e;
+    color: #44d0d0;
     padding-top: 3rem; }
   .frontpg-book-block i {
-    color: #dc108e;
+    color: #44d0d0;
     font-size: 2rem; }
   .frontpg-book-block p {
     color: #d5d5d5;
@@ -190,7 +188,7 @@ body {
     top: 0;
     right: 0; }
   .aboutpg-first-block .about-content h1 {
-    color: #f577c5 !important;
+    color: #59d5d5 !important;
     padding-top: 4rem; }
   .aboutpg-first-block .about-content .about-text {
     color: #EEEEEE;
@@ -209,7 +207,7 @@ body {
   .aboutpg-second-block .impact-content .btn:hover {
     background-color: #ee189c; }
 .aboutpg-second-block .impact-content h1 {
-  color: #f577c5 !important;
+  color: #59d5d5 !important;
   padding-top: 4rem; }
 .aboutpg-second-block .impact-content .about-text {
   color: #a2a2a2;
@@ -221,41 +219,35 @@ body {
     .aboutpg-second-block .impact-content .about-text {
       font-size: 1.15rem; } }
 
-.aboutpg-third-block {
-  background: url(http://cheryl.local/wp-content/uploads/2016/02/about24hr-woman-bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  .aboutpg-third-block .hrwoman-content {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-left: 4rem;
-    padding-right: 4rem; }
-    @media (max-width: 500px) {
-      .aboutpg-third-block .hrwoman-content {
-        padding-left: 2rem;
-        padding-right: 1rem;
-        margin-left: -3rem;
-        margin-right: -3rem; } }
-    .aboutpg-third-block .hrwoman-content .btn {
-      border-radius: 0;
-      background-color: #950b60;
-      outline: none;
-      border: 1px solid black; }
-      .aboutpg-third-block .hrwoman-content .btn:hover {
-        background-color: #ee189c; }
-    .aboutpg-third-block .hrwoman-content h1 {
-      color: #f8a7d9 !important;
-      padding-top: 4rem; }
-    .aboutpg-third-block .hrwoman-content .about-text {
-      color: #d5d5d5;
-      padding-top: 2rem;
-      padding-bottom: 4rem;
-      font-weight: 300 !important;
-      font-size: 1rem; }
-      @media (min-width: 1100px) {
-        .aboutpg-third-block .hrwoman-content .about-text {
-          font-size: 1.15rem; } }
+.aboutpg-third-block .hrwoman-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 4rem;
+  padding-right: 4rem; }
+  @media (max-width: 500px) {
+    .aboutpg-third-block .hrwoman-content {
+      padding-left: 2rem;
+      padding-right: 1rem;
+      margin-left: -3rem;
+      margin-right: -3rem; } }
+  .aboutpg-third-block .hrwoman-content .btn {
+    border-radius: 0;
+    background-color: #950b60;
+    outline: none;
+    border: 1px solid black; }
+    .aboutpg-third-block .hrwoman-content .btn:hover {
+      background-color: #ee189c; }
+  .aboutpg-third-block .hrwoman-content h1 {
+    color: #59d5d5 !important;
+    padding-top: 4rem; }
+  .aboutpg-third-block .hrwoman-content .about-text {
+    color: #d5d5d5;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    font-weight: 300 !important;
+    font-size: 1rem; }
+    @media (min-width: 1100px) {
+      .aboutpg-third-block .hrwoman-content .about-text {
+        font-size: 1.15rem; } }
 
 .aboutpg-fourth-block {
   background-color: #EEEEEE;
@@ -268,7 +260,7 @@ body {
     .aboutpg-fourth-block .strategy-content .btn:hover {
       background-color: #ee189c; }
   .aboutpg-fourth-block .strategy-content h1 {
-    color: #f577c5 !important;
+    color: #32c9c9 !important;
     padding-top: 4rem; }
   .aboutpg-fourth-block .strategy-content .about-text {
     color: #a2a2a2;
@@ -280,7 +272,7 @@ body {
       .aboutpg-fourth-block .strategy-content .about-text {
         font-size: 1.15rem; } }
   .aboutpg-fourth-block .strategy-content .about-list {
-    color: #ee189c;
+    color: #32c9c9;
     padding-left: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -312,10 +304,10 @@ body {
       .workmepg-first-block .advice-content .btn:hover {
         background-color: #ee189c; }
     .workmepg-first-block .advice-content h1 {
-      color: #f577c5 !important;
+      color: #d5d5d5 !important;
       padding-top: 4rem; }
     .workmepg-first-block .advice-content .about-text {
-      color: #a2a2a2;
+      color: #d5d5d5;
       padding-top: 2rem;
       padding-bottom: 4rem;
       font-weight: 300 !important;
@@ -324,53 +316,47 @@ body {
         .workmepg-first-block .advice-content .about-text {
           font-size: 1.15rem; } }
 
-.workmepg-second-block {
-  background: url(http://cheryl.local/wp-content/uploads/2016/02/workwithme-block-2-4.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  .workmepg-second-block .hrwoman-content {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-left: 4rem;
-    padding-right: 4rem; }
-    @media (max-width: 500px) {
-      .workmepg-second-block .hrwoman-content {
-        padding-left: 2rem;
-        padding-right: 1rem;
-        margin-left: -3rem;
-        margin-right: -3rem; } }
-    .workmepg-second-block .hrwoman-content .search-form-container {
-      text-align: center;
-      padding-bottom: 3rem; }
-      .workmepg-second-block .hrwoman-content .search-form-container .search-submit {
-        background-color: #950b60;
-        outline: none;
-        border: 1px solid #7c0552; }
-        .workmepg-second-block .hrwoman-content .search-form-container .search-submit:hover {
-          background-color: #ee189c !important; }
-    .workmepg-second-block .hrwoman-content .btn {
-      border-radius: 0;
+.workmepg-second-block .hrwoman-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 4rem;
+  padding-right: 4rem; }
+  @media (max-width: 500px) {
+    .workmepg-second-block .hrwoman-content {
+      padding-left: 2rem;
+      padding-right: 1rem;
+      margin-left: -3rem;
+      margin-right: -3rem; } }
+  .workmepg-second-block .hrwoman-content .search-form-container {
+    text-align: center;
+    padding-bottom: 3rem; }
+    .workmepg-second-block .hrwoman-content .search-form-container .search-submit {
       background-color: #950b60;
       outline: none;
       border: 1px solid #7c0552; }
-      .workmepg-second-block .hrwoman-content .btn:hover {
-        background-color: #ee189c; }
-    .workmepg-second-block .hrwoman-content h1 {
-      color: #f8a7d9 !important;
-      padding-top: 4rem; }
-    .workmepg-second-block .hrwoman-content .about-text {
-      color: #d5d5d5;
-      padding-top: 2rem;
-      padding-bottom: 4rem;
-      font-weight: 300 !important;
-      font-size: 1rem; }
-      @media (min-width: 1100px) {
-        .workmepg-second-block .hrwoman-content .about-text {
-          font-size: 1.15rem; } }
+      .workmepg-second-block .hrwoman-content .search-form-container .search-submit:hover {
+        background-color: #ee189c !important; }
+  .workmepg-second-block .hrwoman-content .btn {
+    border-radius: 0;
+    background-color: #950b60;
+    outline: none;
+    border: 1px solid #7c0552; }
+    .workmepg-second-block .hrwoman-content .btn:hover {
+      background-color: #ee189c; }
+  .workmepg-second-block .hrwoman-content h1 {
+    color: #d5d5d5 !important;
+    padding-top: 4rem; }
+  .workmepg-second-block .hrwoman-content .about-text {
+    color: #d5d5d5;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    font-weight: 300 !important;
+    font-size: 1rem; }
+    @media (min-width: 1100px) {
+      .workmepg-second-block .hrwoman-content .about-text {
+        font-size: 1.15rem; } }
 
 .workmepg-third-block {
-  background-color: #106e6f; }
+  background-color: #28a0a0; }
   .workmepg-third-block .advice-content {
     text-align: center; }
     .workmepg-third-block .advice-content .btn {
@@ -381,10 +367,10 @@ body {
       .workmepg-third-block .advice-content .btn:hover {
         background-color: #ee189c; }
     .workmepg-third-block .advice-content h1 {
-      color: #f577c5 !important;
+      color: #eeeeee !important;
       padding-top: 4rem; }
     .workmepg-third-block .advice-content .about-text {
-      color: #d5d5d5;
+      color: #eeeeee;
       padding-top: 2rem;
       padding-bottom: 4rem;
       font-weight: 300 !important;
@@ -393,36 +379,34 @@ body {
         .workmepg-third-block .advice-content .about-text {
           font-size: 1.15rem; } }
 
-.workmepg-fourth-block {
-  background: url(http://cheryl.local/wp-content/uploads/2016/02/workwithme-speaker-block-1.jpg) no-repeat top center fixed; }
-  .workmepg-fourth-block .advice-content {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    margin-left: -5rem;
-    margin-right: -5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding-left: 3rem;
-    padding-right: 2.5rem; }
-    .workmepg-fourth-block .advice-content .btn {
-      border-radius: 0;
-      background-color: #950b60;
-      outline: none;
-      border: 1px solid #950b60; }
-      .workmepg-fourth-block .advice-content .btn:hover {
-        background-color: #ee189c; }
-    .workmepg-fourth-block .advice-content h1 {
-      color: #f577c5 !important;
-      padding-top: 4rem; }
-    .workmepg-fourth-block .advice-content .about-text {
-      color: #d5d5d5;
-      padding-top: 2rem;
-      padding-bottom: 4rem;
-      font-weight: 300 !important;
-      font-size: 1rem; }
-      @media (min-width: 1100px) {
-        .workmepg-fourth-block .advice-content .about-text {
-          font-size: 1.15rem; } }
+.workmepg-fourth-block .advice-content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: -5rem;
+  margin-right: -5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 2.5rem; }
+  .workmepg-fourth-block .advice-content .btn {
+    border-radius: 0;
+    background-color: #950b60;
+    outline: none;
+    border: 1px solid #950b60; }
+    .workmepg-fourth-block .advice-content .btn:hover {
+      background-color: #ee189c; }
+  .workmepg-fourth-block .advice-content h1 {
+    color: #eeeeee !important;
+    padding-top: 4rem; }
+  .workmepg-fourth-block .advice-content .about-text {
+    color: #eeeeee;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    font-weight: 300 !important;
+    font-size: 1rem; }
+    @media (min-width: 1100px) {
+      .workmepg-fourth-block .advice-content .about-text {
+        font-size: 1.15rem; } }
 
 .workmepg-fifth-block {
   background-color: #7c0552;
@@ -440,10 +424,10 @@ body {
     .workmepg-fifth-block .brilliance-content .btn:hover {
       background-color: #ee189c; }
   .workmepg-fifth-block .brilliance-content h1 {
-    color: #f577c5 !important;
+    color: #eeeeee !important;
     padding-top: 4rem; }
   .workmepg-fifth-block .brilliance-content .about-text {
-    color: #a2a2a2;
+    color: #eeeeee;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-weight: 300 !important;
@@ -486,10 +470,10 @@ body {
     .workmepg-sixth-block .strategy-content .btn:hover {
       background-color: #ee189c; }
   .workmepg-sixth-block .strategy-content h1 {
-    color: #f577c5 !important;
+    color: #eeeeee !important;
     padding-top: 4rem; }
   .workmepg-sixth-block .strategy-content .about-text {
-    color: #a2a2a2;
+    color: #eeeeee;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-weight: 300 !important;
@@ -509,65 +493,56 @@ body {
       .workmepg-sixth-block .strategy-content .about-list {
         font-size: 1.15rem; } }
 
-.workmepg-seventh-block {
-  background: url(http://cheryl.local/wp-content/uploads/2016/02/workwithme-personal-coach-bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  .workmepg-seventh-block .advice-content {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    margin-left: -5rem;
-    margin-right: -5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding-left: 3rem;
-    padding-right: 2.5rem; }
-    .workmepg-seventh-block .advice-content .btn {
-      border-radius: 0;
-      background-color: #950b60;
-      outline: none;
-      border: 1px solid #950b60; }
-      .workmepg-seventh-block .advice-content .btn:hover {
-        background-color: #ee189c; }
-    .workmepg-seventh-block .advice-content h1 {
-      color: #f577c5 !important;
-      padding-top: 4rem; }
-    .workmepg-seventh-block .advice-content .about-text {
-      color: #d5d5d5;
-      padding-top: 2rem;
-      padding-bottom: 4rem;
-      font-weight: 300 !important;
-      font-size: 1rem; }
-      @media (min-width: 1100px) {
-        .workmepg-seventh-block .advice-content .about-text {
-          font-size: 1.15rem; } }
+.workmepg-seventh-block .advice-content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: -5rem;
+  margin-right: -5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 2.5rem; }
+  .workmepg-seventh-block .advice-content .btn {
+    border-radius: 0;
+    background-color: #950b60;
+    outline: none;
+    border: 1px solid #950b60; }
+    .workmepg-seventh-block .advice-content .btn:hover {
+      background-color: #ee189c; }
+  .workmepg-seventh-block .advice-content h1 {
+    color: #eeeeee !important;
+    padding-top: 4rem; }
+  .workmepg-seventh-block .advice-content .about-text {
+    color: #eeeeee;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    font-weight: 300 !important;
+    font-size: 1rem; }
+    @media (min-width: 1100px) {
+      .workmepg-seventh-block .advice-content .about-text {
+        font-size: 1.15rem; } }
 
-.workmepg-eighth-block {
-  background-color: #950b60;
-  background-image: url(http://cheryl.local/wp-content/uploads/2016/02/about-strategy-bg-block-1.jpg); }
-  .workmepg-eighth-block .advice-content {
-    text-align: center; }
-    .workmepg-eighth-block .advice-content .btn {
-      border-radius: 0;
-      background-color: #950b60;
-      outline: none;
-      border: 1px solid black; }
-      .workmepg-eighth-block .advice-content .btn:hover {
-        background-color: #ee189c; }
-    .workmepg-eighth-block .advice-content h1 {
-      color: #f577c5 !important;
-      padding-top: 4rem; }
-    .workmepg-eighth-block .advice-content .about-text {
-      color: #a2a2a2;
-      padding-top: 2rem;
-      padding-bottom: 4rem;
-      font-weight: 300 !important;
-      font-size: 1rem; }
-      @media (min-width: 1100px) {
-        .workmepg-eighth-block .advice-content .about-text {
-          font-size: 1.15rem; } }
+.workmepg-eighth-block .advice-content {
+  text-align: center; }
+  .workmepg-eighth-block .advice-content .btn {
+    border-radius: 0;
+    background-color: #950b60;
+    outline: none;
+    border: 1px solid black; }
+    .workmepg-eighth-block .advice-content .btn:hover {
+      background-color: #ee189c; }
+  .workmepg-eighth-block .advice-content h1 {
+    color: #f577c5 !important;
+    padding-top: 4rem; }
+  .workmepg-eighth-block .advice-content .about-text {
+    color: #a2a2a2;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    font-weight: 300 !important;
+    font-size: 1rem; }
+    @media (min-width: 1100px) {
+      .workmepg-eighth-block .advice-content .about-text {
+        font-size: 1.15rem; } }
 
 /**
  *
@@ -599,7 +574,7 @@ body {
       font-size: 1.2rem;
       font-weight: 900;
       margin-bottom: 1rem;
-      border-bottom: 1px solid #0d5858; }
+      border-bottom: 1px solid #196363; }
     #footer-outer #footer-widgets .widget a {
       border-bottom: 1px solid #5e5e5e;
       font-size: .8rem;

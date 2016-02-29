@@ -34,6 +34,18 @@
 
 	</section>
 
+<style type="text/css" media="screen">
+	
+.workmepg-second-block {
+	 background: url(/wp-content/uploads/2016/02/workwithme-block-2-4.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;		
+}
+
+
+</style>
 
 
 	<section class="workmepg-second-block">
@@ -100,7 +112,7 @@
 				
 					</p>
 					<p>
-						<a class="btn btn-primary" href="http://cheryl.local/contact/" title="">Contact</a>
+						<a class="btn btn-primary" href="/contact/" title="">Contact</a>
 					</p>
 					
 				</article>
@@ -109,6 +121,16 @@
 		</div> <!-- END CONTAINER -->
 
 	</section>
+
+<style type="text/css" media="screen">
+	
+.workmepg-fourth-block {
+	 background: url("/wp-content/uploads/2016/02/workwithme-speaker-block-1.jpg") no-repeat top center fixed; 
+}
+
+
+</style>
+
 
 	<section class="workmepg-fourth-block">
 	
@@ -137,7 +159,7 @@
 
 	
 	<section class="workmepg-fifth-block">
-		<img class="" data-delay="1" data-animation="fade-in-from-right"   src="http://cheryl.local/wp-content/uploads/2016/02/workwithme-block-4.png" alt="">
+		<img class="" data-delay="1" data-animation="fade-in-from-right"   src="/wp-content/uploads/2016/02/workwithme-block-4.png" alt="">
 	
 		<div class="container">
 			
@@ -161,7 +183,7 @@
 	</section>
 
 	<section class="workmepg-sixth-block">
-		<img class="right-img" data-delay="1" data-animation="fade-in-from-right"   src="http://cheryl.local/wp-content/uploads/2016/02/workwithme-block-4b.png" alt="">
+		<img class="right-img" data-delay="1" data-animation="fade-in-from-right"   src="/wp-content/uploads/2016/02/workwithme-block-4b.png" alt="">
 	
 		<div class="container">
 			
@@ -185,6 +207,20 @@
 	</section>
 
 	<section class="workmepg-seventh-block">
+
+<style type="text/css" media="screen">
+
+.workmepg-seventh-block {
+
+	 background: url(/wp-content/uploads/2016/02/workwithme-personal-coach-bg.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;		
+}
+
+		
+</style>	
 	
 		<div class="container">
 			<div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 ">			
@@ -198,7 +234,7 @@
 
 					</p>
 					<p>
-						<a class="btn btn-primary" href="http://cheryl.local/contact/" title="">Contact</a>
+						<a class="btn btn-primary" href="/contact/" title="">Contact</a>
 					</p>
 					
 				</article>
@@ -207,6 +243,16 @@
 		</div> <!-- END CONTAINER -->
 
 	</section>
+
+<style type="text/css" media="screen">
+	
+.workmepg-eighth-block {
+	background-image: url(/wp-content/uploads/2016/02/about-strategy-bg-block-1.jpg);
+
+}
+
+</style>
+
 
 	<section class="workmepg-eighth-block">
 	

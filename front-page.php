@@ -24,10 +24,10 @@
 		<div class="header-book-container container">
 			<div class="row">
 				<article class="col-xs-12 col-sm-12 col-md-6 header-book-block">
-						<img src="http://cheryl.local/wp-content/uploads/2013/06/the24hourbook.png" alt="">
+						<img src="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/uploads/2013/06/the24hourbook.png" alt="">
 
 						<h4>
-							Get Free Cheryl's new book, 'The 24 Hour Woman', free (you just pay your shipping and handling). 
+							Get Cheryl's new book FREE, "The 24 Hour Woman", free (you just pay your shipping and handling). 
 						</h4>
 				</article>
 				<article class="col-xs-12 col-sm-12 col-md-6 header-infusion-form-container">
@@ -64,6 +64,14 @@
 	
 	</section>
 
+
+<style type="text/css" media="screen">
+	.frontpg-meet-cheryl-block {
+		
+		background-image: url("<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/uploads/2016/02/about-strategy-bg-block-1.jpg");
+	}
+</style>
+
 	<section class="frontpg-meet-cheryl-block">
 
 		<div class="row">
@@ -87,9 +95,9 @@
 			<div class="row">
 
 				<aside class="photos col-xs-12 col-sm-12 col-md-8 col-lg-8">
-					<img class="img-responsive" src="http://cheryl.local/wp-content/uploads/2013/06/StepupforWomen_Combine-Medium-Pix.jpg" alt="">
+					<img class="img-responsive" src="/wp-content/uploads/2013/06/StepupforWomen_Combine-Medium-Pix.jpg" alt="">
 				</aside>
-				<aside class="photos col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<aside class="photo-text col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<span><i class="fa fa-quote-left"></i></span>
 
 						<blockquote>
@@ -159,7 +167,7 @@
 			<div class="row">
 
 				<aside class="book-photo col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					<img class="img-responsive  img-with-animation" data-delay="1" data-animation="fade-in-from-left"  src="http://cheryl.local/wp-content/uploads/2013/06/the24hourbook.png" alt="">
+					<img class="img-responsive  img-with-animation" data-delay="1" data-animation="fade-in-from-left"  src="/wp-content/uploads/2013/06/the24hourbook.png" alt="">
 				</aside>
 				<aside class="book-text col-xs-12 col-sm-8 col-md-8 col-lg-8">
 
@@ -204,6 +212,11 @@
 		</article>
 
 	</section>	
+
+<style type="text/css" media="screen">
+	
+</style>
+
 
 	<section class="frontpg-vc-recent-post-block">
 		

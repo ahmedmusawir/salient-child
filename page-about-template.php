@@ -14,9 +14,9 @@
 <div class="wrap">
 
 	<section class="aboutpg-first-block">
-	<img class="pull-left hidden-xs img-with-animation" data-delay="1" data-animation="fade-in-from-right"   src="http://cheryl.local/wp-content/uploads/2016/02/cheryl-triangle-jpeg-perfect.jpg" alt="">
-	<img class="visible-xs" src="http://cheryl.local/wp-content/uploads/2016/02/cheryl-triangle-jpg-color-overlay-perfect.jpg" alt="">
-	<!-- <img class="img-responsive pull-left" src="http://cheryl.local/wp-content/uploads/2016/02/cheryl-triangle-jpg.jpg" alt=""> -->
+		<img class="pull-left hidden-xs img-with-animation" data-delay="1" data-animation="fade-in-from-right"   src="/wp-content/uploads/2016/02/cheryl-triangle-jpeg-perfect.jpg" alt="">
+		<img class="visible-xs" src="http://cheryl.local/wp-content/uploads/2016/02/cheryl-triangle-jpg-color-overlay-perfect.jpg" alt="">
+		<!-- <img class="img-responsive pull-left" src="http://cheryl.local/wp-content/uploads/2016/02/cheryl-triangle-jpg.jpg" alt=""> -->
 			
 		<div class="container">
 			<div class="col-xs-12 col-sm-10 col-md-8 ">			
@@ -59,6 +59,20 @@
 		</div> <!-- END CONTAINER -->
 
 	</section>
+
+<style type="text/css" media="screen">
+	
+	.aboutpg-third-block {
+	 background: url("/wp-content/uploads/2016/02/about24hr-woman-bg.jpg") no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;	
+
+	}
+
+</style>
+
 
 	<section class="aboutpg-third-block">
 	
