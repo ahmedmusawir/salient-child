@@ -11,6 +11,31 @@
 
 <?php nectar_page_header($post->ID); ?>
 
+<?php 
+/**
+ *
+ * Work With Me Page ACF Variables
+ *
+ */
+$a_piece_of_advice = get_field('a_piece_of_advice');
+
+$search_my_site = get_field('search_my_site');
+
+$subscribe_to_my_updates = get_field('subscribe_to_my_updates');
+
+$get_with_the_program = get_field('get_with_the_program');
+
+$book_me_as_a_speaker = get_field('book_me_as_a_speaker');
+
+$join_my_brilliance_breakthrough = get_field('join_my_brilliance_breakthrough');
+
+$join_my_small_group_masterminds = get_field('join_my_small_group_masterminds');
+
+$hire_me_as_a_personal_coach = get_field('hire_me_as_a_personal_coach');
+
+$further_assistance = get_field('further_assistance');
+
+?>
 <div class="wrap">
 
 	<section class="workmepg-first-block">
@@ -19,14 +44,8 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 ">			
 				<article class="advice-content">
 
-					<h1>A Piece of Advice</h1>
+					<?php echo $a_piece_of_advice; ?>
 
-					<p class="about-text">
-			
-						Here are seven ways you can access my knowledge and experience. I have arranged these in order, from those that require the least investment to those that require the most.
-
-					</p>
-					
 				</article>
 
 			</div> <!-- END COLS SIZES -->
@@ -56,14 +75,9 @@
 
 				<article class="hrwoman-content">
 
-					<h1>1. Search my site</h1>
+					<?php echo $search_my_site; ?>
 
-					<p class="about-text">
-			
-					Headquartered in Singapore (Asia), The24HourWoman.com platform is uniquely positioned to reach and engage women in both the East and West with leadership seminars and support.Recent demographic, social, and economic trends have created amazing new career and business opportunities for women. While this is wonderful for women, it also presents significant challenges for individuals, businesses, families, and communities.					
 
-						
-					</p>
 					<div class="search-form-container center-block">
 
 						<?php echo get_search_form(); ?>
@@ -79,16 +93,8 @@
 
 				<article class="hrwoman-content">
 
-					<h1>2. Subscribe to my updates</h1>
+					<?php echo $subscribe_to_my_updates; ?>
 
-					<p class="about-text">
-			
-					I currently publish a new blog post a week. I write on how to win at work/business and succeed at life. I cover personal development, productivity, work-life integration, high performance and influence. By subscribing, you’ll get my latest thinking delivered straight to your inbox.
-					</p>
-					<p>
-						<a class="btn btn-primary" href="http://cheryl.local/contact/" title="">Subscribe</a>
-					</p>
-					
 				</article>
 
 			</div> <!-- END COLS SIZES -->			
@@ -104,16 +110,8 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 ">			
 				<article class="advice-content">
 
-					<h1>3. Get With The Program</h1>
+					<?php echo $get_with_the_program; ?>
 
-					<p class="about-text">
-			
-						Join in one of my Programs. You can find them all in my here. They represent my best thinking on various topics regarding careers, business, work-life, productivity, influences and more designed to give you the inspiration, training and resources to thrive in your workbusiness and lead a happy, vibrant and fulfilling life. I have several other products in development.
-				
-					</p>
-					<p>
-						<a class="btn btn-primary" href="/contact/" title="">Learn More</a>
-					</p>
 					
 				</article>
 
@@ -138,18 +136,8 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 ">			
 				<article class="advice-content">
 
-					<h1>4. Book me as a speaker</h1>
+					<?php echo $book_me_as_a_speaker; ?>
 
-					<p class="about-text">
-			
-						I have been speaking publicly across the global. I have keynoted hundreds of events for corporations, conferences, trade associations and women’s platforms. However, I have recently cut back on the number of invitations I accept, in order to make room for other priorities. If you have an event you would like me to consider, please visit my speaking page then email Sharon,  my assistant.				
-
-					</p>
-					<p>
-						<a class="btn btn-primary" href="http://cheryl.local/contact/" title="">Connect Here</a>
-					</p>
-					
-				</article>
 
 			</div> <!-- END COLS SIZES -->
 		</div> <!-- END CONTAINER -->
@@ -167,16 +155,9 @@
 				
 				<article class="brilliance-content">
 
-					<h1>5. Join my Brilliance Breakthrough™</h1>
+					<?php echo $join_my_brilliance_breakthrough; ?>
 
-					<p class="about-text">
-			
-						I lead a paid women’s only high performance coaching group for a handful of qualified, high-achievers of women professionals and entreprenuers. It involves a face-to-face meeting in person, fortnight group video conferences, and individual email coaching. The group is full for 2015, but we will open the 2016 application process again soon. If you would like to be notified in advance, please email Sharon , my assistant.
 
-					</p>
-					<p>
-						<a class="btn btn-primary" href="http://cheryl.local/contact/" title="">Learn More</a>
-					</p>					
 				</article>
 
 			</div> <!-- END COLS SIZES -->			
@@ -193,16 +174,8 @@
 				
 				<article class="strategy-content">
 
-					<h1>6. Join my small group masterminds</h1>
-
-					<p class="about-text">
-			
-						I host several masterminds annually in my favourite cities for a handful of qualified, high-achievers from around the world who wants to meet face to face, build growth relationships and be coached on monthly group video conferences, and individual email coaching. The group is full for 2015, but we will open the 2016 application process again shortly. If you would like to be notified in advance, please email Sharon, my assistant.
-
-					</p>
-					<p>
-						<a class="btn btn-primary" href="http://cheryl.local/contact/" title="">Contact</a>
-					</p>					
+					<?php echo $join_my_small_group_masterminds; ?>
+		
 				</article>
 
 			</div> <!-- END COLS SIZES -->			
@@ -230,16 +203,8 @@
 			<div class="col-xs-12 col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6 ">			
 				<article class="advice-content">
 
-					<h1>7. Hire me as a personal coach</h1>
+					<?php echo $hire_me_as_a_personal_coach; ?>
 
-					<p class="about-text">
-					
-						I love one-on-one coaching, but I have limited time available for it. Therefore, I am very selective. I also charge crazy-high fees. But if you think you could benefit from one-on-one interaction with me, email Sharon,  my assistant.			
-
-					</p>
-					<p>
-						<a class="btn btn-primary" href="/contact/" title="">Contact</a>
-					</p>
 					
 				</article>
 
@@ -264,16 +229,9 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 ">			
 				<article class="advice-content">
 
-					<h1>Further Assistance</h1>
+					<?php echo $further_assistance; ?>
 
-					<p class="about-text">
 			
-						If you have something else in mind, other than what I have outlined, feel free to e-mail me. Someone on my team would be happy to talk with you.
-					
-					</p>
-					<p>
-						<a class="btn btn-primary" href="http://cheryl.local/contact/" title="">Contact</a>
-					</p>						
 				</article>
 
 			</div> <!-- END COLS SIZES -->
