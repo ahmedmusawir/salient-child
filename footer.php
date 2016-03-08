@@ -9,10 +9,17 @@ if(!empty($options['cta-text']) && current_page_url() != $cta_link && !in_array(
 
 $cta_btn_color = (!empty($options['cta-btn-color'])) ? $options['cta-btn-color'] : 'accent-color'; ?>
 	
+<style type="text/css" media="screen">
+	#call-to-action {
+		/*background-image: url("<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/uploads/2016/02/about-strategy-bg-block-1.jpg");*/
+
+	}
+</style>
+
 <div id="call-to-action">
 	<div class="container">
 		<div class="triangle"></div>
-		<span> <?php echo $options['cta-text']; ?> </span>
+		<span id="cta-text"> <?php echo $options['cta-text']; ?> </span>
 		<a class="nectar-button <?php if($cta_btn_color != 'see-through') echo 'regular-button '; ?> <?php echo $cta_btn_color;?>" data-color-override="false" href="<?php echo $cta_link ?>"><?php if(!empty($options['cta-btn'])) echo $options['cta-btn']; ?> </a>
 	</div>
 </div>

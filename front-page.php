@@ -1,6 +1,46 @@
 <?php get_header(); ?>
 
-<?php //nectar_page_header($post->ID); ?>
+<?php nectar_page_header($post->ID); ?>
+
+<?php 
+/**
+ *
+ * ACF Variables
+ *
+ */
+
+/**
+ *
+ * Top Book and Infusion Block
+ *
+ */
+$left_book_image_box = get_field('left_book_image_box');
+$right_infusion_form_block = get_field('right_infusion_form_block');
+
+/**
+ *
+ * Meet Cheryl Block
+ *
+ */
+$meet_cheryl_content = get_field('meet_cheryl_content');
+
+/**
+ *
+ * Black background photo block
+ *
+ */
+$left_large_image = get_field('left_large_image');
+$right_quote_block = get_field('right_quote_block');
+
+/**
+ *
+ * Bottom Book Block
+ *
+ */
+$left_book_image = get_field('left_book_image');
+$right_text_and_form_content = get_field('right_text_and_form_content');
+
+?>
 
 <div class="wrap">
 <!-- https://youtu.be/4XbHDR4kdBo -->
@@ -9,7 +49,7 @@
 			
 			<div class="row">
 				
-			<iframe src="//www.youtube.com/embed/4XbHDR4kdBo?rel=0&amp;controls=0&amp;showinfo=0" width="840" height="360" frameborder="0">
+			<!-- <iframe src="//www.youtube.com/embed/4XbHDR4kdBo?rel=0&amp;controls=0&amp;showinfo=0" width="840" height="360" frameborder="0"> -->
 			<!-- <iframe src="//www.youtube.com/embed/9VsCWrn9p7Q?rel=0&amp;controls=0&amp;showinfo=0" width="840" height="360" frameborder="0"> -->
 				
 			</iframe>
@@ -24,39 +64,14 @@
 		<div class="header-book-container container">
 			<div class="row">
 				<article class="col-xs-12 col-sm-12 col-md-6 header-book-block">
-						<img src="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/uploads/2013/06/the24hourbook.png" alt="">
 
-						<h4>
-							Get Cheryl's new book FREE, "The 24 Hour Woman", free (you just pay your shipping and handling). 
-						</h4>
+					<?php echo $left_book_image_box; ?>
+
 				</article>
 				<article class="col-xs-12 col-sm-12 col-md-6 header-infusion-form-container">
 					<!-- HEADER INFUSION FORM CODE -->
 
-					<div id="webform-video-series-opt-in" class="webform-container instant-access-small">
-					<h2>Step One: Enter your info to get your book free:<h2>
-						<form accept-charset="UTF-8" action="https://lw957.infusionsoft.com/app/form/process/9bbfc8726acbc18e06ed53101ed62da6" class="infusion-form" method="POST">
-						    <input name="inf_form_xid" type="hidden" value="9bbfc8726acbc18e06ed53101ed62da6">
-						    <input name="inf_form_name" type="hidden" value="Opt-In Form">
-						    <input name="infusionsoft_version" type="hidden" value="1.29.2.92">
-
-							<section class="row infusion-inputs">
-							    <div class="infusion-field col-xs-12 col-sm-12 col-md-5 col-md-5">
-							        <!-- <label for="inf_field_FirstName">First Name *</label> -->
-							        <input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="text" placeholder="First Name...">
-							    </div>
-							    <div class="infusion-field col-xs-12 col-sm-12 col-md-5 col-md-5">
-							        <!-- <label for="inf_field_Email">Email *</label> -->
-							        <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="text" placeholder="Email...">
-							    </div>
-							    <div id="infusion-submit" class="infusion-submit col-xs-12 col-sm-12 col-md-2 col-md-2">
-							        <input type="submit" value="Sign Up Now!">
-							    </div>
-							</section>
-
-						</form>
-						<div class="privacy">We value your privacy and will never share, rent, or sell your information.</div>
-					</div>
+					<?php echo $right_infusion_form_block; ?>
 
 				</article>				
 			</div>
@@ -76,14 +91,11 @@
 
 		<div class="row">
 			<article class="meet-cheryl-block container">
+
+				<?php echo $meet_cheryl_content; ?>
 				
-				<h1>Meet Cheryl Liew-Chng</h1>
-
-				<p>
-					Cheryl Liew-Chng is an in-demand international speaker, trainer, coach, and CEO/Founder of LifeWorkz—an Asian-based firm whose mission is to guide individuals in more effectively creating, redesigning, and transitioning to “lives most excellent.”
-				</p>
-
 				<?php echo do_shortcode( '[button color="accent-color" hover_text_color_override="#fff" size="medium" url="/about-cheryl-liew-chng/" text="Read More &gt;" color_override=""]' ); ?>
+
 			</article>
 		</div>
 		
@@ -95,18 +107,11 @@
 			<div class="row">
 
 				<aside class="photos col-xs-12 col-sm-12 col-md-8 col-lg-8">
-					<img class="img-responsive" src="/wp-content/uploads/2013/06/StepupforWomen_Combine-Medium-Pix.jpg" alt="">
+					<img class="img-responsive" src="<?php echo $left_large_image; ?>" alt="">
 				</aside>
 				<aside class="photo-text col-xs-12 col-sm-12 col-md-4 col-lg-4">
-					<span><i class="fa fa-quote-left"></i></span>
 
-						<blockquote>
-						<h3>You may be destined for great things, but if you do not consciously move in their direction, you might just miss building that legacy that you want to leave behind.</h3>
-						</blockquote>
-
-					<span><i class="fa fa-quote-right pull-right"></i></span>
-
-					<cite>-Cheryl Liew-Chng</cite>
+					<?php echo $right_quote_block; ?>
 
 				</aside>
 				
@@ -119,37 +124,75 @@
 		
 		<div class="row">
 		
-			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			<article class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
 				<div class="wpb_wrapper social-box">
-					<div class="wpb_text_column wpb_content_element  social-callout">
+					<div id="facebook">
+						<a href="http://www.facebook.com/brendonburchardfan" target="_blank" class="social_panel"><h3 align="center">Get Daily Motivation</h3>
 						<div class="wpb_wrapper">
-							<a href="http://www.facebook.com/brendonburchardfan" target="_blank" class="social_panel"><h3 align="center">Get Daily Motivation</h3>
-				  <div style="width:200px;height:50px;margin:0 auto;"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FBrendon-Burchard-Live-Love-Matter%2F141502009216768&amp;layout=standard&amp;show_faces=false&amp;width=200&amp;action=like&amp;colorscheme=light&amp;height=30" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:30px;" allowtransparency="true"></iframe></div></a>
 
-						</div>
+							<?php if ( is_active_sidebar( 'frontpage-service-widget-1' ) ) : ?>
+
+								<?php dynamic_sidebar( 'frontpage-service-widget-1' ); ?>
+
+							<?php else : ?>
+
+							<!-- This content shows up if there are no widgets defined in the backend. -->
+												
+							<div class="alert help">
+								<p><?php _e("Please activate some Widgets.", "jointstheme");  ?></p>
+							</div>
+
+							<?php endif; ?>
+
 					</div>
 				</div>
 			</article>	
 
 			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 				<div class="wpb_wrapper social-box">
-					<div class="wpb_text_column wpb_content_element  social-callout">
+					<div id="youtube">
 						<div class="wpb_wrapper">
-							<a href="http://www.facebook.com/brendonburchardfan" target="_blank" class="social_panel"><h3 align="center">Get Daily Motivation</h3>
-				  <div style="width:200px;height:50px;margin:0 auto;"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FBrendon-Burchard-Live-Love-Matter%2F141502009216768&amp;layout=standard&amp;show_faces=false&amp;width=200&amp;action=like&amp;colorscheme=light&amp;height=30" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:30px;" allowtransparency="true"></iframe></div></a>
+
+							<a href="http://www.facebook.com/brendonburchardfan" target="_blank" class="social_panel"><h3 align="center">Watch Cheryl's Show</h3>
+
+							<?php if ( is_active_sidebar( 'frontpage-service-widget-2' ) ) : ?>
+
+								<?php dynamic_sidebar( 'frontpage-service-widget-2' ); ?>
+
+							<?php else : ?>
+
+							<!-- This content shows up if there are no widgets defined in the backend. -->
+												
+							<div class="alert help">
+								<p><?php _e("Please activate some Widgets.", "jointstheme");  ?></p>
+							</div>
+
+							<?php endif; ?>
 
 						</div>
 					</div>
 				</div>
 			</article>	
 
-			<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			<article class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
 				<div class="wpb_wrapper social-box">
-					<div class="wpb_text_column wpb_content_element  social-callout">
+					<div id="linkedin">
 						<div class="wpb_wrapper">
-							<a href="http://www.facebook.com/brendonburchardfan" target="_blank" class="social_panel"><h3 align="center">Get Daily Motivation</h3>
-				  <div style="width:200px;height:50px;margin:0 auto;"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FBrendon-Burchard-Live-Love-Matter%2F141502009216768&amp;layout=standard&amp;show_faces=false&amp;width=200&amp;action=like&amp;colorscheme=light&amp;height=30" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:30px;" allowtransparency="true"></iframe></div></a>
+							<a href="http://www.facebook.com/brendonburchardfan" target="_blank" class="social_panel"><h3 align="center">Connect With Cheryl Professionally</h3>
 
+							<?php if ( is_active_sidebar( 'frontpage-service-widget-3' ) ) : ?>
+
+								<?php dynamic_sidebar( 'frontpage-service-widget-3' ); ?>
+
+							<?php else : ?>
+
+							<!-- This content shows up if there are no widgets defined in the backend. -->
+												
+							<div class="alert help">
+								<p><?php _e("Please activate some Widgets.", "jointstheme");  ?></p>
+							</div>
+
+							<?php endif; ?>
 						</div>
 					</div>
 				</div>
@@ -160,63 +203,6 @@
 		</div>
 
 	</section>
-
-	<section class="frontpg-book-block">
-		
-		<article class="book-container container">
-			<div class="row">
-
-				<aside class="book-photo col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					<img class="img-responsive  img-with-animation" data-delay="1" data-animation="fade-in-from-left"  src="/wp-content/uploads/2013/06/the24hourbook.png" alt="">
-				</aside>
-				<aside class="book-text col-xs-12 col-sm-8 col-md-8 col-lg-8">
-
-						<div id="new-call-to-action">
-
-							<span><i class="fa fa-quote-left"></i></span>
-							<h2>The 24-Hour Woman: How High Achieving and Stressed Women Manage It All and Still Find Happiness</h2>
-							<span><i class="fa fa-quote-right pull-right"></i></span>
-							<p>
-								Want to live a less overwhelmed and toiling life to one that is thriving and filled with vibrancy?
-								If so, the book The 24-Hour Woman will help you do just that. Having climbed the corporate ladder and served in leadership positions, navigated several career transitions in many industries, while also attending graduate school and raising three boys, Cheryl experienced challenges and eventually uncovered the secrets to a life of abundance and vibrancy.
-								And now this book documents the exact steps she and thousands of others took to become the great success they are today - successfully thriving in work/business and live a vibrant life.
-								This book will be available in January of 2015, but if you click the button below, we will put you on the EARLY BIRD list so you can get notified the second it comes out!
-							</p>	
-
-						</div>
-
-						<form accept-charset="UTF-8" action="https://lw957.infusionsoft.com/app/form/process/5898d212fd55d7b680585a5db53f811c" class="infusion-form" method="POST">
-						    <input name="inf_form_xid" type="hidden" value="5898d212fd55d7b680585a5db53f811c" />
-						    <input name="inf_form_name" type="hidden" value="Hard Cover Book Pre-Order" />
-						    <input name="infusionsoft_version" type="hidden" value="1.34.0.44" />
-						    <div class="infusion-field">
-						        <label for="inf_field_FirstName">First Name *</label>
-						        <input style="background-color:#ffffff" class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="text" />
-						    </div>
-						    <div class="infusion-field">
-						        <label for="inf_field_Email">Email *</label>
-						        <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="text" />
-						    </div>
-
-						    <div class="infusion-submit">
-						        <input class="pull-right" id="preorderButton" type="submit" value="PUT ME ON THE LIST" />
-						    </div>
-						</form>
-						<script type="text/javascript" src="https://lw957.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=6ddd4aba466ce23b96aadedd894d89a1"></script>
-
-
-
-				</aside>
-				
-			</div>
-		</article>
-
-	</section>	
-
-<style type="text/css" media="screen">
-	
-</style>
-
 
 	<section class="frontpg-vc-recent-post-block">
 		
@@ -242,6 +228,25 @@
 
 	</section>
 
+
+	<section class="frontpg-book-block">
+		
+		<article class="book-container container">
+			<div class="row">
+
+				<aside class="book-photo col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<img class="img-responsive  img-with-animation" data-delay="1" data-animation="fade-in-from-left"  src="<?php echo $left_book_image; ?>" alt="">
+				</aside>
+				<aside class="book-text col-xs-12 col-sm-8 col-md-8 col-lg-8">
+
+					<?php echo $right_text_and_form_content; ?>
+
+				</aside>
+				
+			</div>
+		</article>
+
+	</section>	
 
 </div> <!-- END OF WRAP -->
 <?php get_footer(); ?>
